@@ -1,0 +1,30 @@
+html{
+    background-color: black;
+}
+.navbarposition{
+    margin-left: 35%;
+}
+
+#fontsize{
+    font-size: 20px;
+}
+
+.picme{
+    margin-top : 1%;
+    width: 250 px;
+    height: 250px;
+}
+
+#topcolor{
+    color:orange;
+}
+
+#introposition{
+    margin-left : 35%;
+    margin-top: -15%;
+    width : 30%
+}
+
+#introcolor{
+    color : white;
+}
