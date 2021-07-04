@@ -1,9 +1,6 @@
 html{
     background-color: black;
 }
-.navbarposition{
-    margin-left: 35%;
-}
 
 #fontsize{
     font-size: 20px;
@@ -19,12 +16,33 @@ html{
     color:orange;
 }
 
-#introposition{
-    margin-left : 35%;
-    margin-top: -15%;
-    width : 30%
+
+#h2{
+    color: skyblue;
+    animation-duration: 16s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+@keyframes slidein {
+    0% {
+      margin-left: 0%;
+    }
+    50% {
+      margin-left: 1451px;
+    }
+    100% {
+      margin-left: 0%;
+    }
 }
 
-#introcolor{
-    color : white;
+#aboutmyself{
+    text-align: center;
+    color:tomato;
+    
 }
+ul{
+    margin-top: -20px;
+    color : white;
+    display: inline-block;
+}
+    
