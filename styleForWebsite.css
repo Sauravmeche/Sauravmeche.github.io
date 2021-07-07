@@ -37,8 +37,7 @@ html{
 
 #aboutmyself{
     text-align: center;
-    color:tomato;
-    
+    color:tomato;    
 }
 ul{
     margin-top: -20px;
@@ -46,3 +45,13 @@ ul{
     display: inline-block;
 }
     
+.skillsexperience{
+    color:tomato;
+}
+#skills{
+    margin-left: 250px;
+}
+#experience{
+    margin-top: -20px;
+    margin-left: 1200px;
+}
