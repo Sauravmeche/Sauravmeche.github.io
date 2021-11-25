@@ -1,42 +1,90 @@
 <!DOCTYPE html>
 
-
 <html>
     <head>
-        <title>Saurav's Website</title>
-        <link href="styleForWebsite.css" rel="stylesheet">
-    </head>
+        <meta charset="UTF=8">
+        <meta name="viweport" content="width=device-width, initial-sacel=1.0">
+        <title>Saurav Kshetri</title>
 
+    </head>
     
     <body>
-            <h1 id = "topcolor" id = "fontsize">
-                <center>SAURAV IS LEARNING...</center>
+          <header>
+              <div class="logo">
+                  <img src="C:\Users\saura\Documents\Sauravmeche.github.io\B-2_Spirit_.jpg" alt="B2 bomber">
+              </div>
+
+              <button class="nav=toggle" aria-label="toggle navigation">
+                  <span class="hamburger"></span>
+              </button>
+
+              <nav class="nav">
+                  <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#connect" class="nav__link">Connect</a></li>
+                  </ul>
+              </nav>
+          </header>  
+
+          <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi I am <strong>Saurav Kshetri</strong>
             </h1>
+            <p class="section__subtitle section__subtitle--intro">Aspiring Mechanical Engineer</p>
+            <img src="C:\Users\saura\Documents\Sauravmeche.github.io\me3.png" alt="Picture of myself">
+        </section>
 
-            <h2 id = "h2">
-                <b>Hello!</b>
-            </h2>
+        <!-- Projects -->
+        <section class="my_projects" id="projects">
+            <h2 class="sectiontitle section__title--services">PROJECTS</h2>
 
-        
-           <left><img class="picme" src="./SauravThakullaKshetri_foto.jpg" alt = "my picture"/></left> 
-       
+            <div class="Projects">
+                
+                <div class="project1">
+                    <h3>UCLA Design Competition</h3>
+                    <p>Worked alongside two UCLA engineering students to build a small robot car which utilized different sensors to autonomously 
+                       navigate a maze.
+                    </p>
+                </div>
 
-        <h2 id = "aboutmyself">
-           About Myself 
-        </h2>
-        <center>
-            <ul>
-                <li>My name is Saurav Kshetri.</li>
-                <li>I migrated from Nepal to USA in 2016.</li>
-           </ul>
-           </center>
-        
-           <h2 class = "skillsexperience">
-              <div id="skills">Skills</div><div id="experience">Experience</div>  
-           </h2>
+                <div class="project1">
+                    <h3>Combat Robotics</h3>
+                    <p>Designed a manufactured a lightweight combat robot. Utilized Solidworks to design the parts and 3D printed those parts to 
+                        build the robot. Soldered electronics together to be able to control the robot using a remote controller.
+                    </p>
+                </div>
+                
+                <div class="project1">
+                    <h3>Cycloidal Drive</h3>
+                    <p>Designed a cycloidal drive in Solidworks using equation driven curves. 3D printed the gear assmebly and built it.</p>
+                </div>
+
+            </div>
+
+            <a href="#connect" class="btn">Connect With Me</a>
+        </section>
+
+        <!-- About Me -->
+        <section class="AboutMe" id="about">
+            
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about"></p>
+
+            <div class="about-me__body">
+                <p></p>
+            </div>
+
+        </section>
+
+        <!-- Connect -->
+        <section class="Connect" id="connect">
+            <h2 class="section__title">Connect With Me</h2>
+            <p class="section__subtitle"></p>
+        </section>
 
 
-           
     </body>
-    
 </html>
