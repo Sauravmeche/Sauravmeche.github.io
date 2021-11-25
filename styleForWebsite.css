@@ -37,12 +37,18 @@ html{
 
 #aboutmyself{
     text-align: center;
-    color:tomato;    
+    color:white;   
+    position: fixed;
+    bottom: 500;
+    right:500; 
 }
 ul{
     margin-top: -20px;
     color : white;
     display: inline-block;
+    position: fixed;
+    bottom:100;
+    right:100;
 }
     
 .skillsexperience{
